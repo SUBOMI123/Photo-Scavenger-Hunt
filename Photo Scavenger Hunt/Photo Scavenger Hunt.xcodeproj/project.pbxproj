@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51BFFAB529C3B02E00D97F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFAB429C3B02E00D97F4B /* AppDelegate.swift */; };
+		51BFFAB729C3B02E00D97F4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFAB629C3B02E00D97F4B /* SceneDelegate.swift */; };
+		51BFFABC29C3B02E00D97F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BFFABA29C3B02E00D97F4B /* Main.storyboard */; };
+		51BFFABE29C3B03100D97F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BFFABD29C3B03100D97F4B /* Assets.xcassets */; };
+		51BFFAC129C3B03100D97F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BFFABF29C3B03100D97F4B /* LaunchScreen.storyboard */; };
+		51BFFACD29C3B19A00D97F4B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFACC29C3B19A00D97F4B /* Task.swift */; };
+		51BFFACF29C3B3AC00D97F4B /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFACE29C3B3AC00D97F4B /* TaskListViewController.swift */; };
+		51BFFAD129C3B43900D97F4B /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFAD029C3B43900D97F4B /* TaskCell.swift */; };
+		51BFFAD329C3B48F00D97F4B /* TaskComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFAD229C3B48F00D97F4B /* TaskComposeViewController.swift */; };
+		51BFFAD529C3B51A00D97F4B /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFAD429C3B51A00D97F4B /* TaskDetailViewController.swift */; };
+		51BFFAD729C3B5BC00D97F4B /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BFFAD629C3B5BC00D97F4B /* TaskAnnotationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51BFFAB129C3B02E00D97F4B /* Photo Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BFFAB429C3B02E00D97F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51BFFAB629C3B02E00D97F4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51BFFABB29C3B02E00D97F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51BFFABD29C3B03100D97F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BFFAC029C3B03100D97F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51BFFAC229C3B03100D97F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BFFACC29C3B19A00D97F4B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		51BFFACE29C3B3AC00D97F4B /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		51BFFAD029C3B43900D97F4B /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		51BFFAD229C3B48F00D97F4B /* TaskComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskComposeViewController.swift; sourceTree = "<group>"; };
+		51BFFAD429C3B51A00D97F4B /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		51BFFAD629C3B5BC00D97F4B /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51BFFAAE29C3B02E00D97F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51BFFAA829C3B02E00D97F4B = {
+			isa = PBXGroup;
+			children = (
+				51BFFAB329C3B02E00D97F4B /* Photo Scavenger Hunt */,
+				51BFFAB229C3B02E00D97F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51BFFAB229C3B02E00D97F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BFFAB129C3B02E00D97F4B /* Photo Scavenger Hunt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BFFAB329C3B02E00D97F4B /* Photo Scavenger Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				51BFFAB429C3B02E00D97F4B /* AppDelegate.swift */,
+				51BFFAB629C3B02E00D97F4B /* SceneDelegate.swift */,
+				51BFFACB29C3B0BD00D97F4B /* Models */,
+				51BFFAC829C3B08D00D97F4B /* Task List */,
+				51BFFACA29C3B0B300D97F4B /* Task Detail */,
+				51BFFAC929C3B09C00D97F4B /* Task Compose */,
+				51BFFABA29C3B02E00D97F4B /* Main.storyboard */,
+				51BFFABF29C3B03100D97F4B /* LaunchScreen.storyboard */,
+				51BFFABD29C3B03100D97F4B /* Assets.xcassets */,
+				51BFFAC229C3B03100D97F4B /* Info.plist */,
+			);
+			path = "Photo Scavenger Hunt";
+			sourceTree = "<group>";
+		};
+		51BFFAC829C3B08D00D97F4B /* Task List */ = {
+			isa = PBXGroup;
+			children = (
+				51BFFACE29C3B3AC00D97F4B /* TaskListViewController.swift */,
+				51BFFAD029C3B43900D97F4B /* TaskCell.swift */,
+			);
+			path = "Task List";
+			sourceTree = "<group>";
+		};
+		51BFFAC929C3B09C00D97F4B /* Task Compose */ = {
+			isa = PBXGroup;
+			children = (
+				51BFFAD229C3B48F00D97F4B /* TaskComposeViewController.swift */,
+			);
+			path = "Task Compose";
+			sourceTree = "<group>";
+		};
+		51BFFACA29C3B0B300D97F4B /* Task Detail */ = {
+			isa = PBXGroup;
+			children = (
+				51BFFAD429C3B51A00D97F4B /* TaskDetailViewController.swift */,
+				51BFFAD629C3B5BC00D97F4B /* TaskAnnotationView.swift */,
+			);
+			path = "Task Detail";
+			sourceTree = "<group>";
+		};
+		51BFFACB29C3B0BD00D97F4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51BFFACC29C3B19A00D97F4B /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51BFFAB029C3B02E00D97F4B /* Photo Scavenger Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BFFAC529C3B03100D97F4B /* Build configuration list for PBXNativeTarget "Photo Scavenger Hunt" */;
+			buildPhases = (
+				51BFFAAD29C3B02E00D97F4B /* Sources */,
+				51BFFAAE29C3B02E00D97F4B /* Frameworks */,
+				51BFFAAF29C3B02E00D97F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Scavenger Hunt";
+			productName = "Photo Scavenger Hunt";
+			productReference = 51BFFAB129C3B02E00D97F4B /* Photo Scavenger Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51BFFAA929C3B02E00D97F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					51BFFAB029C3B02E00D97F4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 51BFFAAC29C3B02E00D97F4B /* Build configuration list for PBXProject "Photo Scavenger Hunt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51BFFAA829C3B02E00D97F4B;
+			productRefGroup = 51BFFAB229C3B02E00D97F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BFFAB029C3B02E00D97F4B /* Photo Scavenger Hunt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BFFAAF29C3B02E00D97F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BFFAC129C3B03100D97F4B /* LaunchScreen.storyboard in Resources */,
+				51BFFABE29C3B03100D97F4B /* Assets.xcassets in Resources */,
+				51BFFABC29C3B02E00D97F4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BFFAAD29C3B02E00D97F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BFFACD29C3B19A00D97F4B /* Task.swift in Sources */,
+				51BFFAD729C3B5BC00D97F4B /* TaskAnnotationView.swift in Sources */,
+				51BFFAB529C3B02E00D97F4B /* AppDelegate.swift in Sources */,
+				51BFFAD329C3B48F00D97F4B /* TaskComposeViewController.swift in Sources */,
+				51BFFAB729C3B02E00D97F4B /* SceneDelegate.swift in Sources */,
+				51BFFAD129C3B43900D97F4B /* TaskCell.swift in Sources */,
+				51BFFAD529C3B51A00D97F4B /* TaskDetailViewController.swift in Sources */,
+				51BFFACF29C3B3AC00D97F4B /* TaskListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51BFFABA29C3B02E00D97F4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BFFABB29C3B02E00D97F4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51BFFABF29C3B03100D97F4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BFFAC029C3B03100D97F4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51BFFAC329C3B03100D97F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51BFFAC429C3B03100D97F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BFFAC629C3B03100D97F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJC7J43ZXM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo Scavenger Hunt/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nuria.Photo-Scavenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51BFFAC729C3B03100D97F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJC7J43ZXM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo Scavenger Hunt/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nuria.Photo-Scavenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51BFFAAC29C3B02E00D97F4B /* Build configuration list for PBXProject "Photo Scavenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BFFAC329C3B03100D97F4B /* Debug */,
+				51BFFAC429C3B03100D97F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BFFAC529C3B03100D97F4B /* Build configuration list for PBXNativeTarget "Photo Scavenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BFFAC629C3B03100D97F4B /* Debug */,
+				51BFFAC729C3B03100D97F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51BFFAA929C3B02E00D97F4B /* Project object */;
+}
